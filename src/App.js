@@ -37,7 +37,7 @@ class App extends Component {
 
   render() {
     const {isRegister, name, topic, error} = this.state
-    console.log(name)
+
     return (
       <MeetupContext.Provider
         value={{
