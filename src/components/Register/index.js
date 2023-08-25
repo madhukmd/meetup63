@@ -62,6 +62,8 @@ class Register extends Component {
             changeName(e.target.value)
           }
 
+          /* modified */
+
           const onChangeOption = e => {
             const topicValue = e.target.value
             const val = topicsList.filter(each => each.id === topicValue)
